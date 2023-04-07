@@ -7,6 +7,7 @@ function App(): JSX.Element {
     <BrowserRouter>
       <div className="App">
         <Routes>
+          <Route path="/" element={<Test />} />
           <Route path="/begin" element={<Test />} />
         </Routes>
       </div>

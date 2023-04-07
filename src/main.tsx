@@ -5,6 +5,7 @@ import { store } from "./app/store";
 import { Provider } from "react-redux";
 
 import { createRoot } from "react-dom/client";
+import Test from "./pages/begin";
 
 const container = document.getElementById("root");
 
